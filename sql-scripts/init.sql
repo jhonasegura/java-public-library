@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT Exits users (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  dni VARCHAR(9) NOT NULL,
+  born_day DATE NOT NULL,
+);
